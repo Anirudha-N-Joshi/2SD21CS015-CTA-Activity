@@ -213,12 +213,12 @@ public class GradeCalculator {
 	public static void main(String[] args) {
 		JFrame f = new JFrame(); // creates new frame
 
-		calculator c1 = new calculator();
+		calculator calc = new calculator();
 
-		c1.setVisible(true); // window is visible
-		c1.setBounds(500, 250, 500, 500); // sets Bound For Window
-		c1.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE); // program terminates on exit
-		c1.setLayout(new GridLayout(10, 0));
+		calc.setVisible(true); // window is visible
+		calc.setBounds(500, 250, 500, 500); // sets Bound For Window
+		calc.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE); // program terminates on exit
+		calc.setLayout(new GridLayout(10, 0));
 		return;
 	}
 }
